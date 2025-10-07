@@ -18,9 +18,13 @@ Ao clicar em um jogo, o usuário é levado a uma tela com:
 
 ## 🧩 Modelo Lógico do Banco de Dados
 
-O sistema utiliza o seguinte modelo lógico:
+O sistema utiliza o seguinte modelo lógico, que representa as relações entre **usuários**, **gêneros**, **jogos** e **avaliações**:
 
-### Usuários (`usuarios`)
+![Modelo Lógico do Banco de Dados](./prints/modelo_logico.png)
+
+### Estrutura das Tabelas
+
+#### Usuários (`usuarios`)
 | Campo | Tipo | Descrição |
 |--------|------|-----------|
 | id | INT | Identificador único do usuário |
@@ -28,13 +32,13 @@ O sistema utiliza o seguinte modelo lógico:
 | email | VARCHAR | E-mail do usuário |
 | data_criacao | DATE | Data de criação da conta |
 
-### Gêneros (`generos`)
+#### Gêneros (`generos`)
 | Campo | Tipo | Descrição |
 |--------|------|-----------|
 | id | INT | Identificador único do gênero |
 | nome | VARCHAR | Nome do gênero do jogo |
 
-### Jogos (`jogos`)
+#### Jogos (`jogos`)
 | Campo | Tipo | Descrição |
 |--------|------|-----------|
 | id | INT | Identificador único do jogo |
@@ -43,7 +47,7 @@ O sistema utiliza o seguinte modelo lógico:
 | ano_lancamento | INT | Ano de lançamento |
 | descricao | TEXT | Descrição do jogo |
 
-### Avaliações (`avaliacoes`)
+#### Avaliações (`avaliacoes`)
 | Campo | Tipo | Descrição |
 |--------|------|-----------|
 | id | INT | Identificador único da avaliação |
