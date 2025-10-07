@@ -20,7 +20,7 @@ Ao clicar em um jogo, o usuário é levado a uma tela com:
 
 O sistema utiliza o seguinte modelo lógico, que representa as relações entre **usuários**, **gêneros**, **jogos** e **avaliações**:
 
-![Modelo Lógico do Banco de Dados](./prints/modelo_logico.png)
+![Modelo Lógico do Banco de Dados](screenshots/diagrama_bd.png)
 
 ### Estrutura das Tabelas
 
@@ -62,10 +62,10 @@ O sistema utiliza o seguinte modelo lógico, que representa as relações entre 
 ## 🖼️ Prints da Aplicação
 
 ### Página Inicial
-![Página Inicial](./prints/pagina_inicial.png)
+![Página Inicial](screenshots/main_page.png)
 
 ### Tela de Avaliação
-![Tela de Avaliação](./prints/tela_avaliacao.png)
+![Tela de Avaliação](screenshots/form_avaliar.png)
 
 ---
 
