@@ -71,4 +71,4 @@ O sistema utiliza o seguinte modelo lógico, que representa as relações entre 
 
 ## 🌐 Link do Site Publicado (Deploy)
 
-🔗 **Acesse o sistema aqui:** [https://SEU-LINK-DO-SITE.com](https://SEU-LINK-DO-SITE.com)
+🔗 **Acesse o sistema aqui:** [PlayScore](https://57903eee-40c7-4bb0-948a-b1e394e59fd7.dev33.app-preview.com/)
